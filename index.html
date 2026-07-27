@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>XIMOLOKO · Academic Portfolio</title>
+<style>
+  :root { --w: 700px; --c: #2c3e50; --c2: #3498db; --c3: #7f8c8d; --bg: #fafafa; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: var(--bg); color: var(--c); }
+  .wrap { max-width: var(--w); margin: 0 auto; padding: 60px 24px; }
+  header { text-align: center; margin-bottom: 48px; }
+  .avatar { width: 120px; height: 120px; border-radius: 50%; background: #d5dbdb; margin: 0 auto 20px; display: flex; align-items: center; justify-content: center; font-size: 48px; color: #fff; }
+  h1 { font-size: 28px; font-weight: 600; margin-bottom: 4px; }
+  .subtitle { color: var(--c3); font-size: 15px; }
+  .links { margin-top: 16px; display: flex; justify-content: center; gap: 16px; flex-wrap: wrap; }
+  .links a { color: var(--c2); text-decoration: none; font-size: 14px; border: 1px solid var(--c2); padding: 4px 14px; border-radius: 20px; transition: .2s; }
+  .links a:hover { background: var(--c2); color: #fff; }
+  section { margin-bottom: 40px; }
+  h2 { font-size: 18px; font-weight: 600; border-bottom: 2px solid var(--c2); padding-bottom: 6px; margin-bottom: 16px; }
+  .project { margin-bottom: 18px; }
+  .project h3 { font-size: 16px; font-weight: 600; }
+  .project h3 a { color: var(--c2); text-decoration: none; }
+  .project p { color: var(--c3); font-size: 14px; margin-top: 4px; }
+  .paper { margin-bottom: 12px; }
+  .paper .title { font-weight: 600; }
+  .paper .meta { color: var(--c3); font-size: 14px; }
+  footer { text-align: center; color: #bdc3c7; font-size: 13px; margin-top: 48px; }
+  .badge { display: inline-block; background: #eaf2f8; color: var(--c2); font-size: 12px; padding: 2px 8px; border-radius: 4px; margin-left: 4px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="avatar">&#x1f4bb;</div>
+  <h1>XIMOLOKO</h1>
+  <p class="subtitle">CS Undergraduate · Jiangxi Normal University (Class of 2027)</p>
+  <p class="subtitle">Computer Vision · Diffusion Models · Industrial Defect Detection</p>
+  <div class="links">
+    <a href="https://github.com/11111XIMOLOKO">GitHub</a>
+    <a href="mailto:ximoloko54@gmail.com">Email</a>
+    <a href="#">CV (PDF)</a>
+  </div>
+</header>
+
+<section>
+  <h2>About</h2>
+  <p>I'm a senior undergraduate at Jiangxi Normal University, majoring in Computer Science and Technology. My research focuses on <strong>diffusion-based image restoration</strong> and <strong>industrial anomaly detection</strong>. I'm currently working on a full-stack defect repair pipeline using Stable Diffusion, ControlNet, and DDIM Blending.</p>
+  <p style="margin-top:12px">Ranking: <strong>2/91</strong> (comprehensive) · <strong>4/91</strong> (GPA). CET-6: 479. Expected graduation: June 2027. Actively seeking graduate (MS/PhD) positions starting Fall 2027.</p>
+</section>
+
+<section>
+  <h2>Research Projects</h2>
+
+  <div class="project">
+    <h3><a href="https://github.com/11111XIMOLOKO/defect-repair-pipeline">Defect Repair Pipeline: Diffusion-based Industrial Anomaly Detection & Inpainting</a> <span class="badge">Ongoing</span></h3>
+    <p>A full-stack pipeline for industrial surface defect detection and repair. Five modules: anomaly detection (WideResNet50 + K-means FAISS), fake defect generation (fBm Perlin noise + Otsu masking), ControlNet training (SD 1.5 Inpainting as base, hint_channel=1), DDIM-Blending inference (pixel-exact background preservation), and evaluation (LPIPS + SSIM + MAE). ~2000 lines of self-written Python; every layer understood at the code/numerical/definition level.</p>
+    <p><strong>Key insight:</strong> Read BLDM source code to understand DDIM latent mixing — not calling an API. Made the design decision to fill defect regions with gray (in-distribution signal) rather than black (OOD input).</p>
+  </div>
+
+  <div class="project">
+    <h3>CPR-based Vehicle Component Surface Defect Detection System <span class="badge">3 Awards</span></h3>
+    <p>Cascade Patch Retrieval algorithm: DenseNet201 → GRB global retrieval → LRB local retrieval → FEB foreground estimation. I authored the <strong>technical documentation and defense materials</strong>: a 27-page project report, defense PPT, and demonstration video. Awards: National 3rd (Algorithm Elite Competition), National 3rd (Digital Media Technology Competition), Provincial 2nd (Computer Design Competition).</p>
+  </div>
+</section>
+
+<section>
+  <h2>Papers & Preprints</h2>
+  <div class="paper">
+    <p class="title">🎓 MCM/ICM 2025 — Meritorious Winner (Top 7%)</p>
+    <p class="meta">Olympic Medal Prediction & Sports Strategy Analysis. Four-model cascade: multiple linear regression → Bayesian Dirichlet posterior → advantage-event relaxation function → great coach effect (Wilcoxon test). I served as the lead English paper writer and LaTeX typesetter. <a href="https://github.com/11111XIMOLOKO/mcm-2025">[PDF]</a></p>
+  </div>
+  <div class="paper">
+    <p class="title">📝 CUMCM 2024 — National Second Prize</p>
+    <p class="meta">Production Decision Optimization using 0-1 Integer Programming & Monte Carlo Simulation. Lead paper writer & LaTeX typesetter.</p>
+  </div>
+</section>
+
+<section>
+  <h2>Honors & Awards</h2>
+  <p><strong>Competitions (5 National + 4 Provincial):</strong> iCAN Innovation Contest (National 1st), CUMCM (National 2nd), MCM/ICM (Meritorious), Global Campus AI Algorithm Competition (National 3rd), Digital Media Technology Competition (National 3rd), Computer System Capability Competition (Provincial 1st), Computer Design Competition (Provincial 2nd), NCDA (Provincial 2nd), Datang Cup (Provincial 2nd).</p>
+  <p style="margin-top:8px"><strong>Scholarships:</strong> First-class Comprehensive Scholarship (2023-24, 2024-25). University-level Merit Student (2023-24, 2024-25). Outstanding Student Leader (2025).</p>
+</section>
+
+<section>
+  <h2>Skills</h2>
+  <p><strong>Languages:</strong> Python (primary), C++, Java, TypeScript · <strong>DL Frameworks:</strong> PyTorch, Diffusers, HuggingFace · <strong>Web:</strong> Vue 3, Spring Boot, MySQL, Redis · <strong>Tools:</strong> Git, LaTeX, Linux, Docker</p>
+</section>
+
+<footer>
+  <p>Last updated: July 2026 · Nanchang, China</p>
+</footer>
+
+</div>
+</body>
+</html>
