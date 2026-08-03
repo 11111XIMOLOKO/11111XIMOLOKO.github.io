@@ -17,13 +17,13 @@ I'm an undergraduate at Jiangxi Normal University, majoring in Computer Science 
 
 ## Scholarships
 
-* 🎓 **First-class** Comprehensive Scholarship, 2023–2024
-* 🎓 **First-class** Comprehensive Scholarship, 2024–2025
+<p>🎓 <strong>First-class</strong> Comprehensive Scholarship, 2023–2024</p>
+<p>🎓 <strong>First-class</strong> Comprehensive Scholarship, 2024–2025</p>
 
 ## Campus Honors
 
-* 🏅 University-level Merit Student, 2023–2024
-* 🏅 University-level Merit Student, 2024–2025
-* 🏅 Civilized University Student, 2024
-* 🏅 Outstanding Student Leader, 2025
-* 🏅 Outstanding Communist Youth League Member, 2025
+<p>🏅 University-level Merit Student, 2023–2024</p>
+<p>🏅 University-level Merit Student, 2024–2025</p>
+<p>🏅 Civilized University Student, 2024</p>
+<p>🏅 Outstanding Student Leader, 2025</p>
+<p>🏅 Outstanding Communist Youth League Member, 2025</p>
