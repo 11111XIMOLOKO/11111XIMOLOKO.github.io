@@ -2,11 +2,8 @@ main:
   - title: "About"
     url: /
 
-  - title: "Portfolio"
+  - title: "Projects"
     url: /portfolio/
-
-  - title: "Publications"
-    url: /publications/
 
   - title: "CV"
     url: /cv/
