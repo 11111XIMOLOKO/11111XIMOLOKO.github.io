@@ -1,6 +1,6 @@
 ---
 title: "Beyond Vibe Coding: A Controlled Experiment in AI-Assisted Development"
-excerpt: "A controlled experiment testing whether Spec-Driven Development can constrain AI code generation — and what still requires human judgment."
+excerpt: "After running into the unpredictability of AI-generated code in my research project, I followed the industry debate and came across SDD (Spec-Driven Development). I picked a self-contained web system as a sandbox — same spec, two runs: one by AI alone, one with human-AI collaboration. I just wanted to see if this approach could help me regain control over the code I was shipping."
 collection: portfolio
 link: "https://github.com/11111XIMOLOKO/beyond-vibe-coding"
 ---
