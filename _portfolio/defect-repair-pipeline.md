@@ -2,7 +2,7 @@
 title: "Diffusion-based Industrial Defect Detection & Repair Pipeline"
 excerpt: "A full-stack pipeline for industrial surface defect detection and repair. Five self-built modules, ~2000 lines of Python, every layer understood at the code/numerical/definition level."
 collection: portfolio
-github: "https://github.com/11111XIMOLOKO/defect-repair-pipeline"
+link: "https://github.com/11111XIMOLOKO/defect-repair-pipeline"
 ---
 
 A full-stack pipeline with five self-built modules for industrial surface defect detection and repair.

@@ -2,7 +2,7 @@
 title: "Beyond Vibe Coding: A Controlled Experiment in AI-Assisted Development"
 excerpt: "A controlled experiment testing whether Spec-Driven Development can constrain AI code generation — and what still requires human judgment."
 collection: portfolio
-github: "https://github.com/11111XIMOLOKO/beyond-vibe-coding"
+link: "https://github.com/11111XIMOLOKO/beyond-vibe-coding"
 ---
 
 Vibe Coding — prompting AI in natural language to generate code — comes with a hidden cost: fast builds, expensive maintenance. I designed a controlled experiment: the same SDD spec (Specs → Design → Tasks), two implementations — one by AI alone, one with human-AI collaboration. The only variable: **whether a human participated in iteration**.
