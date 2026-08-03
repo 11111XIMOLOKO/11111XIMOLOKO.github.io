@@ -21,4 +21,7 @@ redirect_from:
 
 ## Skills
 
-**Languages:** Python (primary), C++, Java, TypeScript · **DL Frameworks:** PyTorch, Diffusers, HuggingFace · **Web:** Vue 3, Spring Boot, MySQL, Redis · **Tools:** Git, LaTeX, Linux, Docker
+* **Languages:** Python (primary), C++, Java, TypeScript
+* **DL Frameworks:** PyTorch, Diffusers, HuggingFace
+* **Web:** Vue 3, Spring Boot, MySQL, Redis
+* **Tools:** Git, LaTeX, Linux, Docker
