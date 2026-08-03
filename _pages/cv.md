@@ -19,9 +19,3 @@ redirect_from:
 * **Computer Design Competition — Provincial 2nd Prize** (2025) — Technical documentation & defense
 * **Datang Cup · Next-gen Communication — Provincial 2nd Prize** (2025) — Team member
 
-## Skills
-
-* **Languages:** Python (primary), C++, Java, TypeScript
-* **DL Frameworks:** PyTorch, Diffusers, HuggingFace
-* **Web:** Vue 3, Spring Boot, MySQL, Redis
-* **Tools:** Git, LaTeX, Linux, Docker
