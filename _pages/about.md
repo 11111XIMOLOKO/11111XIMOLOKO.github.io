@@ -11,9 +11,8 @@ I'm an undergraduate at Jiangxi Normal University, majoring in Computer Science 
 
 ## Ranking
 
-* Comprehensive: **2/91** (top 2.2%)
-* GPA: **4/91** (top 4.4%)
-* CET-6: **479** · Graduating June 2027
+* Academic ranking: **2/91**
+* Graduating June 2027
 
 ## Scholarships
 
